@@ -1,0 +1,52 @@
+
+Chapter 7
+Inbox
+	x
+shashank shekhar <shashank.f1@gmail.com>
+	
+10:19 AM (59 minutes ago)
+	
+	
+to me
+
+
+1) https://github.com/adrianulbona/borders geohash
+import pandas as pd
+!wget https://raw.githubusercontent.com/adrianulbona/borders/master/data/countries_discretized_3.csv
+df = pd.read_csv('countries_discretized_3.csv', delimiter=',', header=-1, names=['continent', 'name', 'fips', 'iso', 'geohash'], doublequote=True)
+data = []
+for idx, row in df.iterrows():
+    for item in row['geojson'].split(','):
+        data.append({'continent': row['continent'], 'name': row['name'], 'fips': row['fips'], 'iso': row['iso'], 'geohash': item})
+df = pd.DataFrame(data)
+df.to_csv('countries_discretized_3_modified.csv', sep=',', index=False)
+
+
+2)
+https://openflights.org/data.html lat,lon
+import pandas as pd
+!wget https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat
+df = pd.read_csv('airports.dat', delimiter=',', doublequote=True, header=-1, names=["Airport ID", "Name", "City", "Country", "IATA", "ICAO", "Latitude", "Longitude", "Altitude", "Timezone", "DST", "Tz", "Type", "Source"])
+df.to_csv('airports_modified.csv', index=False)
+!rm airports.dat
+
+
+3) ny trip data
+use postgres custom sql functions
+
+
+    Path
+        http://superset.incubator.apache.org/_images/deck_arc.png      geohash or lat,lon pairs as edges.  use ny taxi trip data
+        http://superset.incubator.apache.org/_images/deck_geojson.png  geojson use ny taxi trip data
+        http://superset.incubator.apache.org/_images/deck_path.png     polyline done use ny taxi trip data
+    Area
+        http://superset.incubator.apache.org/_images/deck_hex.png         lat, lon use borders
+        http://superset.incubator.apache.org/_images/deck_polygon.png     polyline use borders
+        http://superset.incubator.apache.org/_images/deck_scatter.png     lat,lon done using airports
+        http://superset.incubator.apache.org/_images/deck_screengrid.png  lat,lon done using airports
+    Path and Area
+        http://superset.incubator.apache.org/_images/deck_multi.png    combine charts combine ny taxi and airports
+
+	
+	
+	
