@@ -1,14 +1,5 @@
 
 Chapter 7
-Inbox
-	x
-shashank shekhar <shashank.f1@gmail.com>
-	
-10:19 AM (59 minutes ago)
-	
-	
-to me
-
 
 1) https://github.com/adrianulbona/borders geohash
 import pandas as pd
