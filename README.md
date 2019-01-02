@@ -15,7 +15,7 @@ This book covers the following exciting features:
 * Set up a working instance of Superset on cloud services like Google Compute Engine
 * Integrate Superset with SQL databases
 * Build dashboards with Superset
- Calculate statistics in Superset for numerical, categorical, or text data
+* Calculate statistics in Superset for numerical, categorical, or text data
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1788992245) today!
 
