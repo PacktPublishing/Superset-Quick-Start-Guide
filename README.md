@@ -4,7 +4,8 @@
 
 This is the code repository for [Apache Superset Quick Start Guide](https://www.packtpub.com/big-data-and-business-intelligence/apache-superset-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=9781788992244), published by Packt.
 
-**	Develop interactive visualizations by creating user-friendly dashboards**
+
+**Develop interactive visualizations by creating user-friendly dashboards**
 
 ## What is this book about?
 Apache Superset is a modern, open source, enterprise-ready business intelligence (BI) web application. With the help of this book, you will see how Superset integrates with popular databases like Postgres, Google BigQuery, Snowflake, and MySQL. You will learn to create real time data visualizations and dashboards on modern web browsers for your organization using Superset.
