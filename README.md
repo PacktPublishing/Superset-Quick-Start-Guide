@@ -57,7 +57,7 @@ With the following software and hardware list you can run all code files present
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]( https://www.packtpub.com/sites/default/files/downloads/9781788992244_ColorImages.pdf).
 
 
-### Related products <Other books you may enjoy>
+### Related products 
 * Hands-On Data Visualization with Bokeh [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/hands-data-visualization-bokeh?utm_source=github&utm_medium=repository&utm_campaign=9781789135404) [[Amazon]](https://www.amazon.com/dp/1789135400)
 
 * Applied Data Visualization with R and ggplot2 [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/applied-data-visualization-r-and-ggplot2?utm_source=github&utm_medium=repository&utm_campaign=9781789612158) [[Amazon]](https://www.amazon.com/dp/1789612152)
