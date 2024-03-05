@@ -2,7 +2,7 @@
 # add file superset_config.py to PYTHONPATH for usage
 import os
 import json
-from flask_appbuilder.security.manager import 
+from flask_appbuilder.security.manager import AUTH_OAUTH
 
 # Metadata database
 SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://superset:superset@localhost/superset"
